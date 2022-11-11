@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>2nd 자바스크립트가 하는 일은?</h2>
+
+        <p>자바스크립트는 HTML 속성(attribute) 값(values)들을 바꾼다.</p>
+        
+        <p>이번에는 자바스크립트가 이미지의 src 속성 값을 바꾼다.</p>
+
+        <button onclick="document.getElementById('myImage').src='images/pic_dooropen.png'">
+            문열기!
+        </button>
+
+        <img id="myImage" src="images/pic_doorclose.png" style="width: 100px;">
+
+        <button onclick="document.getElementById('myImage').src='images/pic_doorclose.png'">
+            문닫기!
+        </button>
+    </body>
+</html>
