@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>자바스크립트 객체(object)</h1>
+        <h3>자바스크립트 객체를 이용한 예제</h3>
+
+        <p id="demo"></p>
+
+        <script>
+            const person = {firstName: "Joon", lastName: "Jeong", age: 33, city: "Seoul"};
+
+            document.getElementById("demo").innerHTML =
+            `${person.firstName} is ${person.age} years old and he is currently living in ${person.city}.`; 
+            // person.propertyName을 붙여야 출력된다.
+        </script>
+    </body>
+</html>
